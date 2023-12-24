@@ -1,0 +1,17 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px;
+}
+
+.item h1 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}

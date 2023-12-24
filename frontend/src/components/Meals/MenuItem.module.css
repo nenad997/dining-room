@@ -1,0 +1,40 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px;
+}
+
+.item h1 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: center;
+  border-bottom: 2px solid black;
+  max-width: fit-content;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.meal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 10px;
+  text-align: center;
+  padding: 5px;
+  border: .5px solid lightblue;
+  background-color: rgb(245, 245, 232);
+  cursor: pointer;
+}
+
+.meals {
+  display: "flex";
+  flex-direction: "row";
+  flex-wrap: "wrap";
+  gap: "10px";
+}
